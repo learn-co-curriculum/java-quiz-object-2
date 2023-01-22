@@ -99,31 +99,22 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/access-modifiers\">Access Modifiers</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "6505",
-          "text": "Methods, fields and constructors defined with this modifier can only be accessed within the class\nwhere they are defined.",
-          "left": "Methods, fields and constructors defined with this modifier can only be accessed within the class\nwhere they are defined.",
-          "right": "private",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 6191
-        },
-        {
           "id": "9070",
           "text": "Fields, methods and constructors in a class\nare visible to any other classes in the same package or to any subclass in another package.",
           "left": "Fields, methods and constructors in a class\nare visible to any other classes in the same package or to any subclass in another package.",
           "right": "protected",
           "comments": "",
           "comments_html": "",
-          "match_id": 94
+          "match_id": 6983
         },
         {
-          "id": "3140",
-          "text": "Fields, methods and constructors in a class\nare visible to any other classes in the same package.",
-          "left": "Fields, methods and constructors in a class\nare visible to any other classes in the same package.",
-          "right": "default/no modifier",
+          "id": "6505",
+          "text": "Methods, fields and constructors defined with this modifier can only be accessed within the class\nwhere they are defined.",
+          "left": "Methods, fields and constructors defined with this modifier can only be accessed within the class\nwhere they are defined.",
+          "right": "private",
           "comments": "",
           "comments_html": "",
-          "match_id": 4386
+          "match_id": 3270
         },
         {
           "id": "3894",
@@ -132,7 +123,16 @@
           "right": "public",
           "comments": "",
           "comments_html": "",
-          "match_id": 5092
+          "match_id": 2393
+        },
+        {
+          "id": "3140",
+          "text": "Fields, methods and constructors in a class\nare visible to any other classes in the same package.",
+          "left": "Fields, methods and constructors in a class\nare visible to any other classes in the same package.",
+          "right": "default/no modifier",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 2183
         }
       ],
       "variables": null,
@@ -141,20 +141,20 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "text": "private",
-          "match_id": 6191
-        },
-        {
           "text": "protected",
-          "match_id": 94
+          "match_id": 6983
         },
         {
-          "text": "default/no modifier",
-          "match_id": 4386
+          "text": "private",
+          "match_id": 3270
         },
         {
           "text": "public",
-          "match_id": 5092
+          "match_id": 2393
+        },
+        {
+          "text": "default/no modifier",
+          "match_id": 2183
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -167,7 +167,7 @@
       "position": null,
       "question_name": "Access Modifiers",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Fields that are instance variables should be declared using which of the following access modifier?</p>",
+      "question_text": "<p>Fields that are instance variables should be declared using which access modifier?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -380,7 +380,7 @@
       "position": null,
       "question_name": "Memory Management and Garbage Collection",
       "question_type": "multiple_choice_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Product</span> <span class=\"o\">{</span> \n    <span class=\"nc\">String</span> <span class=\"n\">name</span><span class=\"o\">;</span>\n    <span class=\"kt\">double</span> <span class=\"n\">price</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n\n        <span class=\"nc\">Product</span> <span class=\"n\">prod1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n        <span class=\"nc\">Product</span> <span class=\"n\">prod2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n\n        <span class=\"nc\">Product</span> <span class=\"n\">saleProduct</span> <span class=\"o\">=</span> <span class=\"n\">prod1</span><span class=\"o\">;</span>\n\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>How many <code>Product</code> instances are created when the <code>main</code> method executes?</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Product</span> <span class=\"o\">{</span> \n    <span class=\"nc\">String</span> <span class=\"n\">name</span><span class=\"o\">;</span>\n    <span class=\"kt\">double</span> <span class=\"n\">price</span><span class=\"o\">;</span>\n\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n\n        <span class=\"nc\">Product</span> <span class=\"n\">prod1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n        <span class=\"nc\">Product</span> <span class=\"n\">prod2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n\n        <span class=\"nc\">Product</span> <span class=\"n\">saleProduct</span> <span class=\"o\">=</span> <span class=\"n\">prod1</span><span class=\"o\">;</span>\n\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>How many instances of the <code>Product</code> class are created when the <code>main</code> method executes?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -420,7 +420,7 @@
       "assessment_question_id": 508116,
       "position": null,
       "question_name": "Memory Management and Garbage Collection",
-      "question_type": "fill_in_multiple_blanks_question",
+      "question_type": "multiple_dropdowns_question",
       "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Product</span> <span class=\"o\">{</span>\n  <span class=\"nc\">String</span> <span class=\"n\">name</span><span class=\"o\">;</span>\n  <span class=\"kt\">double</span> <span class=\"n\">price</span><span class=\"o\">;</span>\n\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n\n    <span class=\"nc\">Product</span> <span class=\"n\">prod1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n    <span class=\"nc\">Product</span> <span class=\"n\">prod2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n\n    <span class=\"nc\">Product</span> <span class=\"n\">saleProduct</span> <span class=\"o\">=</span> <span class=\"n\">prod1</span><span class=\"o\">;</span>\n\n    <span class=\"n\">prod1</span><span class=\"o\">.</span><span class=\"na\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"chips\"</span><span class=\"o\">;</span>\n    <span class=\"n\">prod1</span><span class=\"o\">.</span><span class=\"na\">price</span> <span class=\"o\">=</span> <span class=\"mf\">3.25</span><span class=\"o\">;</span>\n\n    <span class=\"n\">prod2</span><span class=\"o\">.</span><span class=\"na\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"pretzels\"</span><span class=\"o\">;</span>\n    <span class=\"n\">prod2</span><span class=\"o\">.</span><span class=\"na\">price</span> <span class=\"o\">=</span> <span class=\"mf\">3.75</span><span class=\"o\">;</span>\n\n    <span class=\"n\">saleProduct</span><span class=\"o\">.</span><span class=\"na\">price</span> <span class=\"o\">=</span> <span class=\"mf\">2.95</span><span class=\"o\">;</span>\n\n  <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What value is stored in each field after the last line of code executes?\nIt might help to draw the objects and pointers on paper to keep track of the object state.</p>\n\n<p>prod1.name [answer1]<br>\nprod1.price [answer2]</p>\n\n<p>prod2.name [answer3]<br>\nprod2.price [answer4]</p>\n\n<p>saleProduct.name [answer5]<br>\nsaleProduct.price [answer6]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
@@ -431,7 +431,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/memory-management-and-garbage-collection\">Memory Management and Garbage Collection</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "9416",
+          "id": 9416,
           "text": "chips",
           "comments": "",
           "comments_html": "",
@@ -439,7 +439,23 @@
           "blank_id": "answer1"
         },
         {
-          "id": "8492",
+          "id": 9252,
+          "text": "pretzels",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "blank_id": "answer1"
+        },
+        {
+          "id": 6898,
+          "text": "null",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "blank_id": "answer1"
+        },
+        {
+          "id": 8492,
           "text": "2.95",
           "comments": "",
           "comments_html": "",
@@ -447,35 +463,131 @@
           "blank_id": "answer2"
         },
         {
-          "id": "9252",
+          "id": 4607,
+          "text": "3.25",
+          "comments": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
+          "weight": 0.0,
+          "blank_id": "answer2"
+        },
+        {
+          "id": 6386,
+          "text": "3.75",
+          "comments": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
+          "weight": 0.0,
+          "blank_id": "answer2"
+        },
+        {
+          "id": 8987,
+          "text": "3.75",
+          "comments": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
+          "weight": 0.0,
+          "blank_id": "answer2"
+        },
+        {
+          "id": 5937,
           "text": "pretzels",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
-          "blank_id": "answer3"
+          "blank_id": ""
         },
         {
-          "id": "6386",
+          "id": 2867,
+          "text": "chips",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "blank_id": ""
+        },
+        {
+          "id": 4970,
+          "text": "null",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "blank_id": "answer2"
+        },
+        {
+          "id": 1743,
           "text": "3.75",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "blank_id": "answer2"
+        },
+        {
+          "id": 7565,
+          "text": "3.25",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
           "blank_id": "answer4"
         },
         {
-          "id": 4125,
+          "id": 6499,
+          "text": "2.95",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "blank_id": "answer4"
+        },
+        {
+          "id": 6126,
           "text": "chips",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "blank_id": "answer4"
+        },
+        {
+          "id": 1925,
+          "text": "pretzels",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
           "blank_id": "answer5"
         },
         {
-          "id": 6571,
+          "id": 4683,
+          "text": "null",
+          "comments": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
+          "weight": 0.0,
+          "blank_id": "answer5"
+        },
+        {
+          "id": 8313,
           "text": "2.95",
+          "comments": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
+          "weight": 0.0,
+          "blank_id": "answer5"
+        },
+        {
+          "id": 3004,
+          "text": "3.25",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
+          "blank_id": "answer6"
+        },
+        {
+          "id": 3204,
+          "text": "3.75",
+          "comments": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
+          "weight": 0.0,
+          "blank_id": "answer6"
+        },
+        {
+          "id": 1336,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.\ntep through with the Java Visualizer to understand how the object state changes.</p>",
+          "weight": 0.0,
           "blank_id": "answer6"
         }
       ],
@@ -504,7 +616,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6676/pages/memory-management-and-garbage-collection\">Memory Management and Garbage Collection</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 702,
+          "id": "702",
           "text": "bargain-chips",
           "comments": "",
           "comments_html": "",
@@ -520,7 +632,7 @@
           "blank_id": "answer2"
         },
         {
-          "id": 6674,
+          "id": "6674",
           "text": "pretzels",
           "comments": "",
           "comments_html": "",
@@ -536,7 +648,7 @@
           "blank_id": "answer4"
         },
         {
-          "id": 5378,
+          "id": 2036,
           "text": "bargain-chips",
           "comments": "",
           "comments_html": "",
@@ -544,7 +656,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 8596,
+          "id": 1013,
           "text": "3.25",
           "comments": "",
           "comments_html": "",
@@ -609,7 +721,7 @@
           "blank_id": "answer4"
         },
         {
-          "id": 4157,
+          "id": 1536,
           "text": "bargain-pretzels",
           "comments": "",
           "comments_html": "",
@@ -617,7 +729,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 7758,
+          "id": 2172,
           "text": "3.75",
           "comments": "",
           "comments_html": "",
