@@ -105,7 +105,7 @@
           "right": "protected",
           "comments": "",
           "comments_html": "",
-          "match_id": 7914
+          "match_id": 9754
         },
         {
           "id": "6505",
@@ -114,7 +114,7 @@
           "right": "private",
           "comments": "",
           "comments_html": "",
-          "match_id": 9446
+          "match_id": 9369
         },
         {
           "id": "3894",
@@ -123,7 +123,7 @@
           "right": "public",
           "comments": "",
           "comments_html": "",
-          "match_id": 3990
+          "match_id": 916
         },
         {
           "id": "3140",
@@ -132,7 +132,7 @@
           "right": "default/no modifier",
           "comments": "",
           "comments_html": "",
-          "match_id": 2835
+          "match_id": 7839
         }
       ],
       "variables": null,
@@ -142,19 +142,19 @@
       "matches": [
         {
           "text": "protected",
-          "match_id": 7914
+          "match_id": 9754
         },
         {
           "text": "private",
-          "match_id": 9446
+          "match_id": 9369
         },
         {
           "text": "public",
-          "match_id": 3990
+          "match_id": 916
         },
         {
           "text": "default/no modifier",
-          "match_id": 2835
+          "match_id": 7839
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -479,7 +479,7 @@
           "blank_id": "answer2"
         },
         {
-          "id": 6774,
+          "id": 9094,
           "text": "\"pretzels\"",
           "comments": "",
           "comments_html": "",
@@ -487,7 +487,7 @@
           "blank_id": "answer3"
         },
         {
-          "id": 7384,
+          "id": 4958,
           "text": "\"chips\"",
           "comments": "",
           "comments_html": "",
@@ -495,7 +495,7 @@
           "blank_id": "answer3"
         },
         {
-          "id": 2751,
+          "id": 7478,
           "text": "null",
           "comments": "",
           "comments_html": "",
@@ -503,7 +503,7 @@
           "blank_id": "answer3"
         },
         {
-          "id": 4290,
+          "id": 4210,
           "text": "3.75",
           "comments": "",
           "comments_html": "",
@@ -511,7 +511,7 @@
           "blank_id": "answer4"
         },
         {
-          "id": 4151,
+          "id": 8103,
           "text": "3.25",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
@@ -519,7 +519,7 @@
           "blank_id": "answer4"
         },
         {
-          "id": 5395,
+          "id": 206,
           "text": "2.95",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
@@ -527,7 +527,7 @@
           "blank_id": "answer4"
         },
         {
-          "id": 8097,
+          "id": 2028,
           "text": "\"chips\"",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
@@ -535,7 +535,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 6803,
+          "id": 9015,
           "text": "\"pretzels\"",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
@@ -543,7 +543,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 3413,
+          "id": 8012,
           "text": "null",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
@@ -551,15 +551,15 @@
           "blank_id": "answer5"
         },
         {
-          "id": 331,
+          "id": 5860,
           "text": "2.95",
           "comments": "",
-          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
+          "comments_html": "",
           "weight": 100.0,
           "blank_id": "answer6"
         },
         {
-          "id": 7091,
+          "id": 3553,
           "text": "3.25",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
@@ -567,7 +567,7 @@
           "blank_id": "answer6"
         },
         {
-          "id": 6072,
+          "id": 2534,
           "text": "3.75",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q07.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
@@ -611,7 +611,7 @@
           "id": 1872,
           "text": "\"pretzels\"",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
           "blank_id": "answer1"
         },
@@ -620,20 +620,28 @@
           "text": "\"chips\"",
           "comments": "",
           "comments_html": "",
+          "weight": 100,
+          "blank_id": ""
+        },
+        {
+          "id": 2162,
+          "text": "null",
+          "comments": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
-          "blank_id": "answer1"
+          "blank_id": ""
         },
         {
           "id": 5157,
-          "text": "null",
+          "text": "\"bargain-\"",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
           "blank_id": "answer1"
         },
         {
           "id": 6668,
-          "text": "\"bargain-\"",
+          "text": "3.25",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
@@ -641,7 +649,7 @@
         },
         {
           "id": 9424,
-          "text": "3.25",
+          "text": "3.75",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
@@ -649,7 +657,7 @@
         },
         {
           "id": 7655,
-          "text": "3.75",
+          "text": "0.00",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
@@ -657,30 +665,22 @@
         },
         {
           "id": 4205,
-          "text": "0.00",
+          "text": "\"pretzels\"",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
           "blank_id": "answer2"
         },
         {
-          "id": 1147,
-          "text": "\"pretzels\"",
+          "id": 7086,
+          "text": "\"chips\"",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
           "blank_id": "answer3"
         },
         {
-          "id": 1681,
-          "text": "\"chips\"",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0,
-          "blank_id": "answer3"
-        },
-        {
-          "id": 7001,
+          "id": 896,
           "text": "null",
           "comments": "",
           "comments_html": "",
@@ -688,39 +688,39 @@
           "blank_id": "answer3"
         },
         {
-          "id": 8502,
+          "id": 8809,
           "text": "3.75",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "blank_id": "answer3"
+        },
+        {
+          "id": 8819,
+          "text": "3.25",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
           "blank_id": "answer4"
         },
         {
-          "id": 1930,
-          "text": "3.25",
+          "id": 3789,
+          "text": "\"bargain-chips\"",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
           "blank_id": "answer4"
         },
         {
-          "id": 6850,
-          "text": "\"bargain-chips\"",
+          "id": 1786,
+          "text": "\"pretzels\"",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>",
           "weight": 100.0,
           "blank_id": "answer5"
         },
         {
-          "id": 3733,
-          "text": "\"pretzels\"",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0,
-          "blank_id": "answer5"
-        },
-        {
-          "id": 4069,
+          "id": 8765,
           "text": "\"chips\"",
           "comments": "",
           "comments_html": "",
@@ -728,7 +728,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 6279,
+          "id": 9188,
           "text": "null",
           "comments": "",
           "comments_html": "",
@@ -736,32 +736,40 @@
           "blank_id": "answer5"
         },
         {
-          "id": 1680,
+          "id": 8562,
           "text": "\"bargain-\"",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "blank_id": "answer5"
+        },
+        {
+          "id": 5774,
+          "text": "3.25",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
           "blank_id": "answer5"
         },
         {
-          "id": 4842,
-          "text": "3.25",
+          "id": 2141,
+          "text": "3.75",
           "comments": "",
           "comments_html": "<p>Correct! The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>",
           "weight": 100.0,
           "blank_id": "answer6"
         },
         {
-          "id": 6485,
-          "text": "3.75",
+          "id": 6398,
+          "text": "0.00",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
           "blank_id": "answer6"
         },
         {
-          "id": 452,
-          "text": "0.00",
+          "id": 7673,
+          "text": "",
           "comments": "",
           "comments_html": "<p>The <code>saleProduct</code> and <code>prod1</code> variables both point at the same object.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q08.png\" alt=\"multiple pointers to same object\"></p>\n\n<p>Step through with the Java Visualizer to understand how the object state changes.</p>",
           "weight": 0.0,
@@ -783,7 +791,7 @@
       "position": null,
       "question_name": "Memory Management and Garbage Collection",
       "question_type": "multiple_dropdowns_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Product</span> <span class=\"o\">{</span>\n  <span class=\"nc\">String</span> <span class=\"n\">name</span><span class=\"o\">;</span>\n  <span class=\"kt\">double</span> <span class=\"n\">price</span><span class=\"o\">;</span>\n\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n\n    <span class=\"nc\">Product</span> <span class=\"n\">prod1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n    <span class=\"nc\">Product</span> <span class=\"n\">prod2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n\n    <span class=\"nc\">Product</span> <span class=\"n\">saleProduct</span> <span class=\"o\">=</span> <span class=\"n\">prod1</span><span class=\"o\">;</span>\n\n    <span class=\"n\">prod1</span><span class=\"o\">.</span><span class=\"na\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"chips\"</span><span class=\"o\">;</span>\n    <span class=\"n\">prod1</span><span class=\"o\">.</span><span class=\"na\">price</span> <span class=\"o\">=</span> <span class=\"mf\">3.25</span><span class=\"o\">;</span>\n\n    <span class=\"n\">prod2</span><span class=\"o\">.</span><span class=\"na\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"pretzels\"</span><span class=\"o\">;</span>\n    <span class=\"n\">prod2</span><span class=\"o\">.</span><span class=\"na\">price</span> <span class=\"o\">=</span> <span class=\"mf\">3.75</span><span class=\"o\">;</span>\n\n    <span class=\"n\">saleProduct</span><span class=\"o\">.</span><span class=\"na\">price</span> <span class=\"o\">=</span> <span class=\"mf\">2.95</span><span class=\"o\">;</span>\n    <span class=\"n\">saleProduct</span> <span class=\"o\">=</span> <span class=\"n\">prod2</span><span class=\"o\">;</span>\n    <span class=\"n\">saleProduct</span><span class=\"o\">.</span><span class=\"na\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"bargain-\"</span> <span class=\"o\">+</span> <span class=\"n\">saleProduct</span><span class=\"o\">.</span><span class=\"na\">name</span><span class=\"o\">;</span>\n\n  <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What value is stored in each field after the last line of code executes?</p>\n\n<p>Draw the objects and pointers on paper to keep track of the object state.</p>\n\n<p>Carefully consider which object <code>saleProduct</code> points at each time a field\nis assigned a value.</p>\n\n<p>prod1.name [answer1]<br>\nprod1.price [answer2]</p>\n\n<p>prod2.name [answer3]<br>\nprod2.price [answer4]</p>\n\n<p>saleProduct.name [answer5]<br>\nsaleProduct.price [answer6]</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Product</span> <span class=\"o\">{</span>\n  <span class=\"nc\">String</span> <span class=\"n\">name</span><span class=\"o\">;</span>\n  <span class=\"kt\">double</span> <span class=\"n\">price</span><span class=\"o\">;</span>\n\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n\n    <span class=\"nc\">Product</span> <span class=\"n\">prod1</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n    <span class=\"nc\">Product</span> <span class=\"n\">prod2</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Product</span><span class=\"o\">();</span>\n\n    <span class=\"nc\">Product</span> <span class=\"n\">saleProduct</span> <span class=\"o\">=</span> <span class=\"n\">prod1</span><span class=\"o\">;</span>\n\n    <span class=\"n\">prod1</span><span class=\"o\">.</span><span class=\"na\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"chips\"</span><span class=\"o\">;</span>\n    <span class=\"n\">prod1</span><span class=\"o\">.</span><span class=\"na\">price</span> <span class=\"o\">=</span> <span class=\"mf\">3.25</span><span class=\"o\">;</span>\n\n    <span class=\"n\">prod2</span><span class=\"o\">.</span><span class=\"na\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"pretzels\"</span><span class=\"o\">;</span>\n    <span class=\"n\">prod2</span><span class=\"o\">.</span><span class=\"na\">price</span> <span class=\"o\">=</span> <span class=\"mf\">3.75</span><span class=\"o\">;</span>\n\n    <span class=\"n\">saleProduct</span><span class=\"o\">.</span><span class=\"na\">price</span> <span class=\"o\">=</span> <span class=\"mf\">2.95</span><span class=\"o\">;</span>\n    <span class=\"n\">saleProduct</span> <span class=\"o\">=</span> <span class=\"n\">prod2</span><span class=\"o\">;</span>\n    <span class=\"n\">saleProduct</span><span class=\"o\">.</span><span class=\"na\">name</span> <span class=\"o\">=</span> <span class=\"s\">\"bargain-\"</span> <span class=\"o\">+</span> <span class=\"n\">saleProduct</span><span class=\"o\">.</span><span class=\"na\">name</span><span class=\"o\">;</span>\n\n  <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What value is stored in each field after the last line of code executes?</p>\n\n<p>Draw the objects and pointers on paper to keep track of the object state.</p>\n\n<p>Carefully consider which object <code>saleProduct</code> points at each time a field\nis assigned a value.</p>\n\n<p>prod1.name [answer1]<br>\nprod1.price [answer2]  </p>\n\n<p>prod2.name [answer3]<br>\nprod2.price [answer4]  </p>\n\n<p>saleProduct.name [answer5]<br>\nsaleProduct.price [answer6]</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -873,7 +881,7 @@
           "blank_id": "answer2"
         },
         {
-          "id": 3529,
+          "id": 7431,
           "text": "\"bargain-pretzels\"",
           "comments": "",
           "comments_html": "",
@@ -881,7 +889,7 @@
           "blank_id": "answer3"
         },
         {
-          "id": 753,
+          "id": 3329,
           "text": "\"bargain-chips\"",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -889,7 +897,7 @@
           "blank_id": "answer3"
         },
         {
-          "id": 3202,
+          "id": 1266,
           "text": "\"pretzels\"",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -897,7 +905,7 @@
           "blank_id": "answer3"
         },
         {
-          "id": 2916,
+          "id": 9881,
           "text": "\"chips\"",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -905,7 +913,7 @@
           "blank_id": "answer3"
         },
         {
-          "id": 3807,
+          "id": 1128,
           "text": "null",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -913,7 +921,7 @@
           "blank_id": "answer3"
         },
         {
-          "id": 2521,
+          "id": 5192,
           "text": "\"bargain-\"",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -921,7 +929,7 @@
           "blank_id": "answer3"
         },
         {
-          "id": 3542,
+          "id": 4928,
           "text": "3.75",
           "comments": "",
           "comments_html": "",
@@ -929,7 +937,7 @@
           "blank_id": "answer4"
         },
         {
-          "id": 3665,
+          "id": 8541,
           "text": "3.25",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -937,7 +945,7 @@
           "blank_id": "answer4"
         },
         {
-          "id": 6888,
+          "id": 3093,
           "text": "2.95",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -945,7 +953,7 @@
           "blank_id": "answer4"
         },
         {
-          "id": 6862,
+          "id": 2142,
           "text": "0.00",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -953,7 +961,7 @@
           "blank_id": "answer4"
         },
         {
-          "id": 1531,
+          "id": 6394,
           "text": "\"bargain-pretzels\"",
           "comments": "",
           "comments_html": "",
@@ -961,7 +969,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 7458,
+          "id": 4865,
           "text": "\"bargain-chips\"",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -969,7 +977,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 1553,
+          "id": 5115,
           "text": "\"pretzels\"",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -977,7 +985,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 1647,
+          "id": 4151,
           "text": "\"chips\"",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -985,7 +993,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 2790,
+          "id": 3200,
           "text": "null",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -993,7 +1001,7 @@
           "blank_id": "answer5"
         },
         {
-          "id": 1591,
+          "id": 4099,
           "text": "\"bargain-\"",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
@@ -1001,36 +1009,36 @@
           "blank_id": "answer5"
         },
         {
-          "id": 2089,
+          "id": 3825,
           "text": "3.75",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
-          "blank_id": "answer4"
+          "blank_id": "answer6"
         },
         {
-          "id": 8159,
+          "id": 4800,
           "text": "3.25",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
           "weight": 0.0,
-          "blank_id": "answer4"
+          "blank_id": "answer6"
         },
         {
-          "id": 5039,
+          "id": 1567,
           "text": "2.95",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
           "weight": 0.0,
-          "blank_id": "answer4"
+          "blank_id": "answer6"
         },
         {
-          "id": 4923,
+          "id": 6177,
           "text": "0.00",
           "comments": "",
           "comments_html": "<p>Step through with the Java Visualizer to understand how the object state changes.</p>\n\n<p><img src=\"https://curriculum-content.s3.amazonaws.com/6676/java-mod2-oop-fundamentals/quiz2_q09b.png\" alt=\"multiple pointers to same object\"></p>",
           "weight": 0.0,
-          "blank_id": "answer4"
+          "blank_id": "answer6"
         }
       ],
       "variables": null,
